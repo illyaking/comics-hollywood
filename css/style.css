@@ -1,0 +1,127 @@
+body.custom-background {
+     background-color: #2250a4;
+}
+ #wpadminbar #wp-admin-bar-my-networks > .ab-item:first-child:before {
+     content: "\f325";
+    top: 3px;
+}
+/*-- Header --*/
+ #masthead {
+     background: url(../files/uploads/sites/5/2020/01/Sqid-01.jpg);
+}
+/*--Menu --*/
+ .main-navigation-wrapper{
+     display: none;
+}
+ #primary {
+     background: #ffffff;
+}
+ .site-header {
+     border-bottom: 0;
+}
+ .site-content {
+     padding: 0;
+}
+ .footer-bar {
+     border-top: 0;
+}
+ .footer-widget-1 .widget-wrapper {
+     text-align: center;
+}
+ .responsive-site-style-boxed .widget-wrapper {
+     padding: 30px 30px -50px 30px 
+}
+ .fab {
+     font-size: 40px;
+}
+/*-- Basic Code --*/
+ body {
+     overflow-x: hidden!important;
+}
+ .site-header-layout-vertical.site-header-full-width-main-navigation.site-header-site-branding-main-navigation .main-navigation {
+     border:0!important;
+}
+ .site-header-layout-vertical.site-header-alignment-center .main-navigation .menu > li {
+     margin-left: 0px!important;
+     margin-right: 0px!important;
+}
+ .site-title, address, blockquote, dl, figure, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
+     margin-bottom: 0 !important;
+}
+ .site-header {
+     border-bottom: 0 !important;
+}
+ .hentry .post-entry > :last-child {
+     padding: 0 20px;
+}
+ .sharedaddy {
+     text-align: left !important;
+}
+ .post-navigation, .post-data {
+     display: none !important;
+}
+ .footer-widgets .footer-widget .widget-wrapper ul li, .widget-area .widget-wrapper ul li, .footer-widgets .footer-widget .widget-wrapper ul li:last-child, .widget-area .widget-wrapper ul li:last-child {
+     border-top: 0 !important;
+     padding: 2px 0 !important;
+}
+ #footer .widget-title h4 {
+     color: #a29c53 !important;
+     font-weight: 700 !important;
+}
+ #featured, #home_widget_1, #home_widget_2, #home_widget_3 {
+     display: none !important;
+}
+ .sidebar .sd-content {
+     display: none !important;
+}
+ .widget-content {
+     text-align: left !important;
+}
+ table, tr, td {
+     border: 0 !important;
+}
+ td.comic_navi {
+     width: 25% !important;
+     padding: 0 !important;
+}
+ .comic-type-comic {
+     text-align: center !important;
+}
+ .comic_navi {
+     display: inline !important;
+     text-align: center !important;
+     border-collapse: collapse !important;
+}
+ .navi {
+     margin: 0 52px !important;
+}
+ .comic-post-content {
+     display: none !important;
+}
+ .comic-archive-date {
+     width: 120px !important;
+}
+ #sidebar-over-comic, #sidebar-under-comic {
+     display: table !important;
+     margin: 0 auto !important;
+}
+ @media screen and (max-width: 750px) {
+     .navi {
+         margin: 0 52px !important;
+    }
+     .navi-first-in, .navi-last-in, .navi-last, .navi-first {
+         display: none !important;
+    }
+     table td, table th {
+         padding: 0 !important;
+         border: 0 !important;
+    }
+}
+ @media screen and (min-width: 650px) {
+     .site-header {
+         margin-top: -9px !important;
+    }
+}
+ .broken_link, a.broken_link {
+    text-decoration: line-through;
+}
