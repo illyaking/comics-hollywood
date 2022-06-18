@@ -661,7 +661,7 @@ color : #0066CC;
 color : #10659C;
 }
 .footer-widget-1 .widget-wrapper {
-text-align : left;
+text-align : center;
 }
 @media screen and (max-width: 992px) {
 .footer-widget-1 .widget-wrapper {
